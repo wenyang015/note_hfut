@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Booth.srcs/sources_1/new/Booth_multiply.v" \
+"../../../../Booth.srcs/sources_1/new/Booth_top.v" \
+"../../../../Booth.srcs/sources_1/new/smg_drive.v" \
+"../../../../Booth.srcs/sim_1/new/Booth_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

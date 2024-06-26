@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jun 26 01:26:07 2024
+# Process ID: 10152
+# Current directory: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder1/adder1.runs/impl_1
+# Command line: vivado.exe -log adder16.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source adder16.tcl -notrace
+# Log file: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder1/adder1.runs/impl_1/adder16.vdi
+# Journal file: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder1/adder1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source adder16.tcl -notrace

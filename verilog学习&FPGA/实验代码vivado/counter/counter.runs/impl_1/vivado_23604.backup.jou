@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jun 21 23:02:57 2024
+# Process ID: 23604
+# Current directory: D:/FPGA/verilog/counter/counter.runs/impl_1
+# Command line: vivado.exe -log counter_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source counter_top.tcl -notrace
+# Log file: D:/FPGA/verilog/counter/counter.runs/impl_1/counter_top.vdi
+# Journal file: D:/FPGA/verilog/counter/counter.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source counter_top.tcl -notrace

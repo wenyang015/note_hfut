@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jun 21 22:53:22 2024
+# Process ID: 20176
+# Current directory: D:/FPGA/verilog/Booth
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent364 D:\FPGA\verilog\Booth\Booth.xpr
+# Log file: D:/FPGA/verilog/Booth/vivado.log
+# Journal file: D:/FPGA/verilog/Booth\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/verilog/Booth/Booth.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/FPGA/verilog/Booth/Booth.runs/impl_1/Booth_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/FPGA/verilog/Booth/Booth.runs/impl_1/Booth_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

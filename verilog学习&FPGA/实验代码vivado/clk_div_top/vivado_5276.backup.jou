@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jun 12 15:45:49 2024
+# Process ID: 5276
+# Current directory: C:/Users/86138/Desktop/FPGA/verilog/clk_div_top
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20020 C:\Users\86138\Desktop\FPGA\verilog\clk_div_top\clk_div_top.xpr
+# Log file: C:/Users/86138/Desktop/FPGA/verilog/clk_div_top/vivado.log
+# Journal file: C:/Users/86138/Desktop/FPGA/verilog/clk_div_top\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86138/Desktop/FPGA/verilog/clk_div_top/clk_div_top.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_div_pmw.tcl
+run all
+close_sim

@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/verilog/counter/counter.srcs/sources_1/new/conuter_1HZ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conuter_1HZ
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/verilog/counter/counter.srcs/sources_1/new/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/verilog/counter/counter.srcs/sources_1/new/counter_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/verilog/counter/counter.srcs/sources_1/new/smg_drive.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module smg_drive
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/verilog/counter/counter.srcs/sim_1/new/counter_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_top_tb

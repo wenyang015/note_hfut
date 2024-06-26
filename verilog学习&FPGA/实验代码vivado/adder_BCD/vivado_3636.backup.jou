@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jun 13 15:37:30 2024
+# Process ID: 3636
+# Current directory: D:/FPGA/verilog/adder_BCD
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23796 D:\FPGA\verilog\adder_BCD\adder_BCD.xpr
+# Log file: D:/FPGA/verilog/adder_BCD/vivado.log
+# Journal file: D:/FPGA/verilog/adder_BCD\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/verilog/adder_BCD/adder_BCD.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source add_BCD_tb.tcl
+run all
+close_sim

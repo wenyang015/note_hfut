@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jun 25 18:53:08 2024
+# Process ID: 8420
+# Current directory: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder_BCD/adder_BCD.runs/impl_1
+# Command line: vivado.exe -log add_BCD.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source add_BCD.tcl -notrace
+# Log file: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder_BCD/adder_BCD.runs/impl_1/add_BCD.vdi
+# Journal file: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder_BCD/adder_BCD.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source add_BCD.tcl -notrace

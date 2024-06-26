@@ -1,0 +1,8 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"sequence_detector_top_tb_func_synth.v" \
+"../../../../../sequence_detector.srcs/sources_1/new/sequence_detector_top.v" \
+"../../../../../sequence_detector.srcs/sim_1/new/sequence_detector_top_tb.v" \
+
+# Do not sort compile order
+nosort

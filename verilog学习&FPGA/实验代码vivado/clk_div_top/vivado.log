@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jun 17 22:12:45 2024
+# Process ID: 12628
+# Current directory: D:/FPGA/verilog/clk_div_top
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1916 D:\FPGA\verilog\clk_div_top\clk_div_top.xpr
+# Log file: D:/FPGA/verilog/clk_div_top/vivado.log
+# Journal file: D:/FPGA/verilog/clk_div_top\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/verilog/clk_div_top/clk_div_top.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/86138/Desktop/FPGA/verilog/clk_div_top' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 17 22:13:48 2024...

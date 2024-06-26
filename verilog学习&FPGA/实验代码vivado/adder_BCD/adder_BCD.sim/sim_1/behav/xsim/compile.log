@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/sources_1/new/adder_BCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/sources_1/new/smg_drive.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module smg_drive
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/sim_1/new/add_BCD_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD_tb

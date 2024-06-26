@@ -1,0 +1,564 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jun 12 16:49:17 2024
+# Process ID: 21716
+# Current directory: C:/Users/86138/Desktop/FPGA/verilog/adder_BCD
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20304 C:\Users\86138\Desktop\FPGA\verilog\adder_BCD\adder_BCD.xpr
+# Log file: C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/vivado.log
+# Journal file: C:/Users/86138/Desktop/FPGA/verilog/adder_BCD\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'add_BCD_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add_BCD_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sources_1/new/adder_BCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sim_1/new/add_BCD_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xelab -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sim_1/new/add_BCD_tb.v:31]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'add_BCD_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add_BCD_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sources_1/new/adder_BCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sim_1/new/add_BCD_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xelab -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sim_1/new/add_BCD_tb.v:31]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'add_BCD_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add_BCD_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sim_1/new/add_BCD_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xelab -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.add_BCD
+Compiling module xil_defaultlib.add_BCD_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot add_BCD_tb_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim/xsim.dir/add_BCD_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 12 16:53:13 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "add_BCD_tb_behav -key {Behavioral:sim_1:Functional:add_BCD_tb} -tclbatch {add_BCD_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source add_BCD_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'add_BCD_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 810.445 ; gain = 35.598
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'add_BCD_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add_BCD_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sources_1/new/adder_BCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sim_1/new/add_BCD_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xelab -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.add_BCD
+Compiling module xil_defaultlib.add_BCD_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot add_BCD_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "add_BCD_tb_behav -key {Behavioral:sim_1:Functional:add_BCD_tb} -tclbatch {add_BCD_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source add_BCD_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'add_BCD_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 897.117 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:38 . Memory (MB): peak = 897.117 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'add_BCD_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add_BCD_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sources_1/new/adder_BCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sim_1/new/add_BCD_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xelab -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.add_BCD
+Compiling module xil_defaultlib.add_BCD_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot add_BCD_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1014.047 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'add_BCD_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add_BCD_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sources_1/new/adder_BCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sim_1/new/add_BCD_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xelab -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.add_BCD
+Compiling module xil_defaultlib.add_BCD_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot add_BCD_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "add_BCD_tb_behav -key {Behavioral:sim_1:Functional:add_BCD_tb} -tclbatch {add_BCD_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source add_BCD_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'add_BCD_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run all
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'add_BCD_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add_BCD_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xelab -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+run all
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1014.047 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'add_BCD_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add_BCD_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sources_1/new/adder_BCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/sim_1/new/add_BCD_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_BCD_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xelab -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.add_BCD
+Compiling module xil_defaultlib.add_BCD_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot add_BCD_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "add_BCD_tb_behav -key {Behavioral:sim_1:Functional:add_BCD_tb} -tclbatch {add_BCD_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source add_BCD_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'add_BCD_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'add_BCD_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj add_BCD_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim'
+"xelab -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto d3e3886604a149e8be3f377b4fae7acb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_BCD_tb_behav xil_defaultlib.add_BCD_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+run all
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1014.047 ; gain = 0.000
+launch_runs synth_1 -jobs 6
+[Wed Jun 12 17:07:58 2024] Launched synth_1...
+Run output will be captured here: C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tfgg484-2
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1280.297 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1421.148 ; gain = 407.102
+launch_runs impl_1 -jobs 6
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1845.129 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+[Wed Jun 12 17:08:42 2024] Launched impl_1...
+Run output will be captured here: C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.runs/impl_1/runme.log
+set_property IOSTANDARD LVCMOS33 [get_ports [list {an[3]} {an[2]} {an[1]} {an[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {c_out[6]} {c_out[5]} {c_out[4]} {c_out[3]} {c_out[2]} {c_out[1]} {c_out[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {sw[3]} {sw[2]} {sw[1]} {sw[0]}]]
+file mkdir C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1
+file mkdir C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new
+close [ open C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc w ]
+add_files -fileset constrs_1 C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc]
+CRITICAL WARNING: [Designutils 20-1307] Command 'Clock' is not supported in the xdc constraint file. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:6]
+CRITICAL WARNING: [Designutils 20-1307] Command 'Switches' is not supported in the xdc constraint file. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:11]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V16' is not a valid site or package pin name. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:14]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W16' is not a valid site or package pin name. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:16]
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[0]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[0]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[1]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[1]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[2]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[2]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[3]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[3]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[4]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[4]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[5]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[5]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[6]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg[6]'. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-69] Command failed: 'U4' is not a valid site or package pin name. [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc:102]
+Finished Parsing XDC File [C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Wed Jun 12 17:18:05 2024] Launched synth_1...
+Run output will be captured here: C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Wed Jun 12 17:18:43 2024] Launched impl_1...
+Run output will be captured here: C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Wed Jun 12 17:19:47 2024] Launched impl_1...
+Run output will be captured here: C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Wed Jun 12 17:29:17 2024] Launched synth_1...
+Run output will be captured here: C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Wed Jun 12 17:29:49 2024] Launched impl_1...
+Run output will be captured here: C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Wed Jun 12 17:31:05 2024] Launched impl_1...
+Run output will be captured here: C:/Users/86138/Desktop/FPGA/verilog/adder_BCD/adder_BCD.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 12 17:32:58 2024...

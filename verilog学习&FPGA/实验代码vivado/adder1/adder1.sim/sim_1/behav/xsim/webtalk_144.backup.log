@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jun 26 01:19:40 2024
+# Process ID: 144
+# Current directory: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder1/adder1.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder1/adder1.sim/sim_1/behav/xsim/xsim.dir/adder1_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder1/adder1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder1/adder1.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/zheng/Documents/Tencent -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/zheng/Documents/Tencent" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 26 01:19:40 2024...

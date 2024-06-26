@@ -1,0 +1,213 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jun 12 18:44:48 2024
+# Process ID: 11632
+# Current directory: D:/FPGA/verilog/adder_BCD
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24456 D:\FPGA\verilog\adder_BCD\adder_BCD.xpr
+# Log file: D:/FPGA/verilog/adder_BCD/vivado.log
+# Journal file: D:/FPGA/verilog/adder_BCD\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/verilog/adder_BCD/adder_BCD.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source add_BCD_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc
+file delete -force D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/add_BCD.xdc
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {an[3]} {an[2]} {an[1]} {an[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {c_out[6]} {c_out[5]} {c_out[4]} {c_out[3]} {c_out[2]} {c_out[1]} {c_out[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {sw[3]} {sw[2]} {sw[1]} {sw[0]}]]
+set_property is_loc_fixed true [get_ports [list  {an[3]} {an[2]} {an[1]} {an[0]}]]
+set_property is_loc_fixed true [get_ports [list  {an[3]} {an[2]} {an[1]} {an[0]}]]
+set_property is_loc_fixed true [get_ports [list  {c_out[6]} {c_out[5]} {c_out[4]} {c_out[3]} {c_out[2]} {c_out[1]} {c_out[0]}]]
+set_property is_loc_fixed true [get_ports [list  {c_out[6]}]]
+set_property is_loc_fixed true [get_ports [list  {c_out[6]}]]
+set_property is_loc_fixed true [get_ports [list  {c_out[6]}]]
+set_property package_pin "" [get_ports [list  {c_out[6]}]]
+set_property package_pin "" [get_ports [list  {c_out[0]}]]
+place_ports {sw[0]} V2
+place_ports {sw[1]} W1
+place_ports {sw[2]} W2
+place_ports {sw[3]} W4
+place_ports clk Y19
+place_ports dp J21
+place_ports sw7 Y9
+place_ports {an[0]} K21
+place_ports {an[1]} H20
+place_ports {an[2]} J22
+place_ports {an[3]} K22
+place_ports {c_out[6]} L21
+place_ports {c_out[5]} L20
+place_ports {c_out[4]} M22
+set_property package_pin "" [get_ports [list  {c_out[3]}]]
+startgroup
+set_property package_pin "" [get_ports [list  {c_out[6]}]]
+place_ports {c_out[0]} L21
+endgroup
+startgroup
+set_property package_pin "" [get_ports [list  {c_out[5]}]]
+place_ports {c_out[1]} L20
+endgroup
+startgroup
+set_property package_pin "" [get_ports [list  {c_out[4]}]]
+place_ports {c_out[2]} M22
+endgroup
+place_ports {c_out[3]} M21
+place_ports {c_out[4]} T1
+place_ports {c_out[5]} U1
+place_ports {c_out[6]} G20
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list dp]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list sw7]]
+close [ open D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/adder_BCD.xdc w ]
+add_files -fileset constrs_1 D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/adder_BCD.xdc
+set_property target_constrs_file D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/constrs_1/new/adder_BCD.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+place_ports sw7 AA8
+refresh_design
+place_ports sw7 AA8
+save_constraints
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+close_sim

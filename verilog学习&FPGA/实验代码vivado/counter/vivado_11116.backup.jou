@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jun 14 11:31:24 2024
+# Process ID: 11116
+# Current directory: D:/FPGA/verilog/counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18988 D:\FPGA\verilog\counter\counter.xpr
+# Log file: D:/FPGA/verilog/counter/vivado.log
+# Journal file: D:/FPGA/verilog/counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/verilog/counter/counter.xpr
+update_compile_order -fileset sources_1
+file mkdir D:/FPGA/verilog/counter/counter.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/FPGA/verilog/counter/counter.srcs/sim_1/new/counter_top_tb.v w ]
+add_files -fileset sim_1 D:/FPGA/verilog/counter/counter.srcs/sim_1/new/counter_top_tb.v
+update_compile_order -fileset sim_1
+launch_simulation
+source counter_top.tcl
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim

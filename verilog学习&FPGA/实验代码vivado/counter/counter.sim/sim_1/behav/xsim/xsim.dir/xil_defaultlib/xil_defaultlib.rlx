@@ -1,0 +1,10 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/FPGA/verilog/counter/counter.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+D:/FPGA/verilog/counter/counter.srcs/sim_1/new/counter_top_tb.v,1718337617,verilog,,,,counter_top_tb,,,,,,,,
+D:/FPGA/verilog/counter/counter.srcs/sources_1/new/conuter_1HZ.v,1718338702,verilog,,D:/FPGA/verilog/counter/counter.srcs/sources_1/new/counter.v,,conuter_1HZ,,,,,,,,
+D:/FPGA/verilog/counter/counter.srcs/sources_1/new/counter.v,1718342890,verilog,,D:/FPGA/verilog/counter/counter.srcs/sources_1/new/counter_top.v,,counter,,,,,,,,
+D:/FPGA/verilog/counter/counter.srcs/sources_1/new/counter_top.v,1718294822,verilog,,D:/FPGA/verilog/counter/counter.srcs/sources_1/new/smg_drive.v,,counter_top,,,,,,,,
+D:/FPGA/verilog/counter/counter.srcs/sources_1/new/smg_drive.v,1718293025,verilog,,D:/FPGA/verilog/counter/counter.srcs/sim_1/new/counter_top_tb.v,,smg_drive,,,,,,,,

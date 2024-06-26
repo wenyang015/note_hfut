@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jun 25 18:46:18 2024
+# Process ID: 25904
+# Current directory: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog (2)/verilog/sequence_detector
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20356 C:\Users\zheng\Documents\Tencent Files\1805024988\FileRecv\MobileFile\verilog (2)\verilog\sequence_detector\sequence_detector.xpr
+# Log file: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog (2)/verilog/sequence_detector/vivado.log
+# Journal file: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog (2)/verilog/sequence_detector\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 25 18:48:58 2024...

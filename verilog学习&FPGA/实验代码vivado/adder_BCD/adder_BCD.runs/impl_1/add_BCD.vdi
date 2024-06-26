@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jun 25 18:53:08 2024
+# Process ID: 8420
+# Current directory: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder_BCD/adder_BCD.runs/impl_1
+# Command line: vivado.exe -log add_BCD.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source add_BCD.tcl -notrace
+# Log file: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder_BCD/adder_BCD.runs/impl_1/add_BCD.vdi
+# Journal file: C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder_BCD/adder_BCD.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source add_BCD.tcl -notrace
+Command: open_checkpoint add_BCD_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 301.719 ; gain = 4.941
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 742.715 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Constraints 18-4397] Generator change detected checking ShapeConfig Enum. shapeDB will be regenerated.
+INFO: [Constraints 18-5435] Cannot read file, the software version for the checkpoint (2019.1.2552052) does not match the current software version (2019.2.2708876).
+  File : C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder_BCD/adder_BCD.runs/impl_1/add_BCD_routed/add_BCD.xbdc.
+Parsing XDC File [C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder_BCD/adder_BCD.runs/impl_1/add_BCD_routed/add_BCD.xdc]
+Finished Parsing XDC File [C:/Users/zheng/Documents/Tencent Files/1805024988/FileRecv/MobileFile/verilog_exp/verilog/adder_BCD/adder_BCD.runs/impl_1/add_BCD_routed/add_BCD.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 852.598 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.091 . Memory (MB): peak = 852.598 ; gain = 0.000
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 856.098 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2019.1 (64-bit) build 2552052
+open_checkpoint: Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 856.098 ; gain = 566.258
+Command: write_bitstream -force add_BCD.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado_2019_2_/Vivado/2019.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./add_BCD.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
+INFO: [Common 17-83] Releasing license: Implementation
+21 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 1307.316 ; gain = 451.219
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 25 18:53:45 2024...

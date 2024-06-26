@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/verilog/number/number.srcs/sources_1/new/number_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module number_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/verilog/number/number.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

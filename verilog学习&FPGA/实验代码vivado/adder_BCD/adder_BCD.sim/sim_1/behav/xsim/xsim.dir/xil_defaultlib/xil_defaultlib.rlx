@@ -1,0 +1,8 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/FPGA/verilog/adder_BCD/adder_BCD.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/sim_1/new/add_BCD_tb.v,1718258630,verilog,,,,add_BCD_tb,,,,,,,,
+D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/sources_1/new/adder_BCD.v,1718262993,verilog,,D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/sources_1/new/smg_drive.v,,add_BCD,,,,,,,,
+D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/sources_1/new/smg_drive.v,1718258256,verilog,,D:/FPGA/verilog/adder_BCD/adder_BCD.srcs/sim_1/new/add_BCD_tb.v,,smg_drive,,,,,,,,
